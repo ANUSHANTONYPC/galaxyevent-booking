@@ -1,0 +1,36 @@
+/* about.css */
+
+/* Define styles for the container */
+.container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Define styles for the banner */
+  .banner {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Define styles for the banner title */
+  .banner-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Define styles for the banner description */
+  .banner-description {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* Define styles for the banner icon */
+  .banner-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  

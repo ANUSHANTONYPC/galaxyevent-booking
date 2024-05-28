@@ -1,0 +1,73 @@
+/* Bestoffer.css */
+
+/* Styles for the card container */
+.bestoffer-card {
+    border-radius: 12px;
+    background-color: #ffffff; /* White background */
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bestoffer-card:hover {
+    background-color: #4fd1c5; /* Change background color on hover */
+  }
+  
+  /* Styles for the image container */
+  .bestoffer-image-container {
+    height: 110px;
+  }
+  
+  /* Styles for the image */
+  .bestoffer-image {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+  }
+  
+  .bestoffer-card:hover .bestoffer-image {
+    transform: scale(1.1) translateX(4px); /* Scale and translate image on hover */
+  }
+  
+  /* Styles for the content container */
+  .bestoffer-content {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  /* Styles for the title */
+  .bestoffer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Styles for the description */
+  .bestoffer-description {
+    color: #666666; /* Gray color */
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  /* Styles for the price */
+  .bestoffer-price {
+    color: #4fd1c5; /* Teal color */
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Styles for the button */
+  .bestoffer-button {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text color */
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bestoffer-button:hover {
+    background-color: #1a1a1a; /* Darker background on hover */
+  }
+  
